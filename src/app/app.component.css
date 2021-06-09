@@ -1,0 +1,26 @@
+ng-sidebar-container{
+    height:  100vh;
+    width: 50vw;
+}
+
+::ng-deep .ng-sidebar {
+     background-color: #ffffff;
+     width: 475px;
+     padding:  2em 3em;
+     box-shadow:  0 0 2.5em rgba(85, 85,85, 0.5);
+     
+}
+
+nav{
+background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78c9ff, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78c9ff, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body{
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
